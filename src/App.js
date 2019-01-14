@@ -87,9 +87,9 @@ displayFaceBox = (box) => {
         input: this.state.input
       })
     })
-    .then(response => response.json())
+    .then(response => response.status())
     .then((response) => {
-      if(response){
+      if(response !== 400){
         fetch('https://agile-basin-17843.herokuapp.com/image', {
             method:'put',
             headers: {'Content-Type':'application/json'},

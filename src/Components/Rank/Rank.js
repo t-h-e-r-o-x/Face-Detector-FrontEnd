@@ -3,7 +3,7 @@ import React from 'react';
 const Rank = ({name,entries}) => {
   return(
     <div>
-      <div className="f3 white">
+      <div className="f3 gold">
       {'Hi ' + name + ', your current entry count is ...'}
     </div>
     <div className="white f2">

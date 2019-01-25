@@ -1,3 +1,7 @@
 .Tilt{
   background: linear-gradient(90deg, #F55D0C 0%, #DD2009 100%);
 }
+.wrap{
+  display: flex;
+  justify-content: center;
+}

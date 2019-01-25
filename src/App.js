@@ -47,6 +47,10 @@ class App extends Component {
     this.state = initialState;
   }
 
+  componentDidMount(){
+    document.title = "The Smart Brain"
+  }
+
 loadUser = (data) => {
   this.setState({user:{
     id:data.id,
